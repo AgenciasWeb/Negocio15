@@ -43,7 +43,7 @@ p {
     font-family: 'Inter', sans-serif;
 }
 
-/* Botones: Elegancia minimalista con toques de color refinado */
+/* Botones: Base uniforme */
 .btn {
     display: flex;
     align-items: center;
@@ -59,47 +59,33 @@ p {
     transition: all 0.3s ease;
     border: 1px solid transparent;
     font-family: 'Inter', sans-serif;
+    background-color: transparent;
 }
 
-/* Efecto hover general */
+/* Colores de bordes normales por marca */
+.btn-google { 
+    border-color: #4285F4; 
+}
+.btn-whatsapp { 
+    border-color: #25D366; 
+}
+.btn-instagram { 
+    border-color: #E1306C; 
+}
+.btn-mercadopago { 
+    border-color: #009ee3; 
+}
+
+/* EFECTO HOVER: Todos se vuelven dorados al pasar el mouse */
 .btn:hover {
     transform: translateY(-2px);
-    border-color: #c5a059;
-    background-color: #242424;
-    color: #c5a059;
+    border-color: #c5a059 !important; /* Borde dorado */
+    background-color: #242424 !important; /* Fondo ligeramente más claro */
+    color: #c5a059 !important; /* Texto dorado */
 }
 
 .btn:active {
     transform: scale(0.99);
-}
-
-/* Estilos específicos de botones */
-.btn-google { 
-    border-color: #4285F4;
-}
-.btn-google:hover {
-    background-color: rgba(66, 133, 244, 0.1);
-}
-
-.btn-whatsapp { 
-    border-color: #25D366;
-}
-.btn-whatsapp:hover {
-    background-color: rgba(37, 211, 102, 0.1);
-}
-
-.btn-instagram { 
-    border-color: #E1306C;
-}
-.btn-instagram:hover {
-    background-color: rgba(225, 48, 108, 0.1);
-}
-
-.btn-mercadopago { 
-    border-color: #009ee3;
-}
-.btn-mercadopago:hover {
-    background-color: rgba(0, 158, 227, 0.1);
 }
 
 .btn i {
