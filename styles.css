@@ -61,7 +61,7 @@ p {
     font-family: 'Inter', sans-serif;
 }
 
-/* Efecto hover: Sutil cambio de fondo y borde dorado */
+/* Efecto hover general: Sutil cambio de fondo y borde dorado */
 .btn:hover {
     transform: translateY(-2px);
     border-color: #c5a059; /* Borde color Oro al pasar el mouse */
@@ -93,6 +93,13 @@ p {
 }
 .btn-instagram:hover {
     background-color: rgba(225, 48, 108, 0.1);
+}
+
+.btn-mercadopago { 
+    border-color: #009ee3;
+}
+.btn-mercadopago:hover {
+    background-color: rgba(0, 158, 227, 0.1);
 }
 
 /* Asegurar que los íconos de los botones no cambien de color */
