@@ -59,10 +59,9 @@ p {
     transition: all 0.3s ease;
     border: 1px solid transparent;
     font-family: 'Inter', sans-serif;
-    box-sizing: border-box;
 }
 
-/* Efecto hover general: Sutil cambio de fondo y borde dorado */
+/* Efecto hover: Sutil cambio de fondo y borde dorado */
 .btn:hover {
     transform: translateY(-2px);
     border-color: #c5a059; /* Borde color Oro al pasar el mouse */
@@ -96,7 +95,7 @@ p {
     background-color: rgba(225, 48, 108, 0.1);
 }
 
-/* Mercado Pago con borde celeste fijo */
+/* Mercado Pago: Borde celeste */
 .btn-mercadopago { 
     border-color: #009ee3;
 }
